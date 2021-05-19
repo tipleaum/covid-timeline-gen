@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "bulma/css/bulma.css";
-import "bulma-calendar/dist/css/bulma-calendar.min.css";
 import "./Form.css";
 
 function Form({ setPersonal, timeline, setTimeline, sorting }) {

@@ -11,8 +11,8 @@ function App() {
       career: null,
     }
   ]
-  const [personal, setPersonal] = useState(JSON.parse(localStorage.getItem('personal')));
-  const [timeline, setTimeline] = useState(JSON.parse(localStorage.getItem('timeline')));
+  const [personal, setPersonal] = useState(JSON.parse(localStorage.getItem('personal')) ? JSON.parse(localStorage.getItem('personal')) : defaultPersonal);
+  const [timeline, setTimeline] = useState(JSON.parse(localStorage.getItem('timeline')) ? JSON.parse(localStorage.getItem('timeline')) : []);
 
   const renderTimeline = () => {
     const [{ gender, age, career}] = personal;
