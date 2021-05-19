@@ -1,0 +1,78 @@
+.body {
+  font-family: "Prompt", sans-serif;
+}
+
+.text {
+  font-family: "Prompt", sans-serif;
+}
+
+.container2 {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-column-gap: 50px;
+  padding: 20px;
+  grid-row-gap: 30px;
+  border-radius: 5px;
+}
+
+.container3 {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-column-gap: 50px;
+  background-color: #34577e;
+  padding: 20px;
+  grid-row-gap: 10px;
+  border-radius: 5px;
+}
+
+.container4 {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-column-gap: 50px;
+  background-color: #34577e;
+  padding: 20px;
+  grid-row-gap: 10px;
+  border-radius: 5px;
+}
+
+.container5 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.h2 {
+    font-family: "Prompt", sans-serif;
+    display: block;
+  font-size: 1.5em;
+  margin-bottom: 0.3em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: white;
+}
+
+.h3 {
+    font-family: "Prompt", sans-serif;
+    display: block;
+  font-size: 1.17em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: white;
+}
+
+.h4 {
+  font-family: "Prompt", sans-serif;
+  display: block;
+  font-size: 1em;
+  margin-top: 0.2em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: white;
+}
